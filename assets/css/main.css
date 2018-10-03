@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
+@import "base.css";
+@import "typography.css";
 @import "fontawesome.css";
 @import "header.css";
 @import "home.css";

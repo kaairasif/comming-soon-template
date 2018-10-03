@@ -1,0 +1,79 @@
+.home {	
+	height: 890px;
+	width: 100%;
+	background-repeat:repeat;
+	text-align:center;
+}
+.home p {
+	font-size: 18px;
+	color: #fff;
+	max-width: 430px;
+	margin: 0 auto;
+}
+.home h1 {
+	color: #fff;
+    margin-bottom: 15px;
+}
+.home h1 + p { 
+	margin-bottom: 30px;
+}
+.count-down-list {
+	margin-bottom: 80px;
+}
+.count-down-list li {
+	display: inline-block;
+}
+.count-down-list li a {
+	display: flex;
+	width: 160px;
+	height: 160px;
+	background: rgba(0,0,0,0.7);
+	margin: 0 15px;
+	border-bottom: 3px solid #01adb9;
+	color: #fff;
+	font-size: 60px;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	transition: 0.3s ease-in-out;
+}
+.count-down-list li a:hover {
+	background: rgba(0,0,0,1);
+}
+.count-down-list li span {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 10px;
+	display: inline-block;
+}
+.subscriber {
+	max-width: 750px;
+	margin: 0 auto;
+}
+.subscriber input[type="email"]{
+	width: calc(100% - 195px);
+	border: 0;
+	height: 60px;
+	background: rgba(255,255,255,0.8);
+	padding: 0 30px;
+	color: #000;
+	box-sizing: border-box;
+	float: left;
+}
+.subscriber button{
+	width: 190px;
+	border: 0;
+	font-size: 24px;
+	background: #01adb9;
+	color: #fff;
+	height: 60px;
+	float: left;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease-in-out;
+}
+.subscriber button:hover{
+	opacity: 0.8;
+}

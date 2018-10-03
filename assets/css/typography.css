@@ -1,0 +1,23 @@
+
+h1, h2, h3, h4, h5, h6 {
+
+} 
+
+h1 {
+	font-size: 72px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 48px;
+	font-weight: 300;
+	color: #010000;
+}
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+}
+button {
+	font-family: 'Rajdhani', sans-serif;
+}
+

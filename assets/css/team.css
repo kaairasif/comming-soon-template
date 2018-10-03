@@ -1,0 +1,128 @@
+.team {
+	padding: 100px 0;
+	background: #ededed;
+}
+.team .row {
+	margin: 0 -15px;
+}
+.team-block {
+    margin: 0 15px;
+    text-align: right;
+}
+.team-block .col-6 {
+    /*padding: 0 15px;*/
+}
+
+.team-block h3 {
+	padding-top: 25px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #000;
+	margin-bottom: 20px;
+}
+.team-block h3 span{
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+}
+.team-block p {
+	font-size: 14px;
+	line-height: normal;
+}
+.skill-metrics {
+	margin:  20px 0 0 0;
+}
+.skill-metrics li {
+    border: 1px solid #000;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: flex-end;   
+}
+.skill-metrics li span {
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 600;
+    padding: 1px 10px;
+    display: block;
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+.skill-metrics li  span[data-skill="50"] {
+	width: 50%;
+}
+.skill-metrics li  span[data-skill="80"] {
+	width: 80%;
+}
+.skill-metrics li  span[data-skill="70"] {
+	width: 70%;
+}
+
+figure.member-pic {
+	position: relative;
+	display: inline-block;
+	width: 270px;
+	height: 270px;
+	overflow: hidden;
+}
+figure.member-pic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.member-pic:after {
+	transition: 0.3s ease-in-out;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	opacity: 0;
+}
+.member-pic:hover:after {
+	opacity: 1;
+}
+.social-connect {
+	position: absolute;
+    bottom: -30%;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    
+}
+figure.member-pic:hover .social-connect{
+	bottom: 0;	
+}
+.social-connect span {
+	font-size: 16px;
+	color: #fff;
+}
+.social-connect ul {
+	margin: 10px 0;
+}
+.social-connect ul li{
+	display: inline;
+	margin: 0 2px;
+}
+.social-connect ul li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: inline-flex;
+    box-sizing: border-box;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+    transition: 0.3s ease-in-out;   
+}
+.social-connect ul li a:hover {
+	background: #01adb9;
+}
+.social-connect ul li a i {
+	color: #fff;
+}

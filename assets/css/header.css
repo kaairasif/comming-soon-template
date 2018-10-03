@@ -1,0 +1,74 @@
+.header {
+	min-height: 130px;
+	padding: 50px 15px 0 15px;
+}
+.main-nav {
+	/*padding-left: 150px;*/
+}
+.main-nav ul {}
+.main-nav ul li {
+	display: inline;
+}
+.main-nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0 20px 0 0;
+	position: relative;
+	padding-left: 12px;
+	color:#ffffff;
+
+}
+.main-nav ul li a:after {
+	content:'';
+	position: absolute;
+	left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+	border:2px solid white;
+	border-radius: 50%;
+	transition: 0.3s ease-in-out;
+}
+.main-nav ul li a:before {
+	content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: -4px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+.main-nav ul li.active a:after,
+.main-nav ul li.active a:before,
+.main-nav ul li a:hover:after,
+.main-nav ul li a:hover:before {
+	border-color:tomato;
+}
+.main-nav ul li.active a:after {
+	animation: autoBlink 1s infinite;
+}
+
+.social-nav {
+	text-align: right;
+}
+.social-nav ul {}
+.social-nav ul li{
+	display: inline;
+	padding-left: 15px;
+}
+.social-nav ul li a{
+	color:#ffffff;
+	font-size:25px;
+}
+.social-nav ul li a:hover{}
+
+.intro-section {
+	background: url(../images/home-bg.jpg) no-repeat 0 0;
+    background-size:cover;
+    background-position: center center;
+   
+}
