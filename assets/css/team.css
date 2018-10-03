@@ -118,7 +118,8 @@ figure.member-pic:hover .social-connect{
     border-radius: 50%;
     justify-content: center;
     align-items: center; 
-    transition: 0.3s ease-in-out;   
+    transition: 0.3s ease-in-out;
+    text-decoration: none;   
 }
 .social-connect ul li a:hover {
 	background: #01adb9;
